@@ -1,28 +1,17 @@
+"""import twint
 
-import argparse
+c = twint.Config()
 
-def detect_text_uri(uri):
-    """Detects text in the file located in Google Cloud Storage or on the Web.
-    """
-    from google.cloud import vision
-    client = vision.ImageAnnotatorClient()
-    image = vision.Image()
-    image.source.image_uri = uri
+c.Search = ['Taylor Swift']       # topic
+c.Limit = 500      # number of Tweets to scrape
 
-    response = client.text_detection(image=image)
-    texts = response.text_annotations
-    print('Texts:')
 
-    for text in texts:
-        print('\n"{}"'.format(text.description))
+twint.run.Search(c)
 
-        vertices = (['({},{})'.format(vertex.x, vertex.y)
-                    for vertex in text.bounding_poly.vertices])
+print(c)"""
 
-        print('bounds: {}'.format(','.join(vertices)))
+from youtube_comment_scraper_python import *
+import time
 
-    if response.error.message:
-        raise Exception(
-            '{}\nFor more info on error messages, check: '
-            'https://cloud.google.com/apis/design/errors'.format(
-                response.error.message))
+youtube.open("https://www.youtube.com/watch?v=UtRMiOPrxyA")
+print(youtube.video_comments())
