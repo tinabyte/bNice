@@ -10,8 +10,8 @@ twint.run.Search(c)
 
 print(c)"""
 
-from youtube_comment_scraper_python import *
+"""from youtube_comment_scraper_python import *
 import time
 
 youtube.open("https://www.youtube.com/watch?v=UtRMiOPrxyA")
-print(youtube.video_comments())
+print(youtube.video_comments())"""
