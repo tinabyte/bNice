@@ -1,3 +1,1 @@
-# bNice
-# teji has a messy screenshot
-# Test
+bNice Read me
