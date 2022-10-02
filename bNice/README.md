@@ -1,3 +1,2 @@
-# bNice
-# teji has a messy screenshot
-# Test
+# bNicer
+Here you can find the code and files used for the streamlit application!
