@@ -48,5 +48,5 @@ stremalit run frontEnd.py
 ```
 
 ## Notes
-The repo has three main folders. The "/bNice" folder contains the main source code for the streamlit code using python. The machine learning model can be seen through the jupyter notebook under "/model". The "/preprocessCSV" was used to format the tweet data in an ideal csv format for tweet analysis using TensorFlow. TensorFlow demo was inspired by this demo https://youtu.be/P0o5U9pq8_s along with https://youtu.be/AkEnjJ5yWV0
+May not be compatible with M1 chip Mac OS. The repo has three main folders. The "/bNice" folder contains the main source code for the streamlit code using python. The machine learning model can be seen through the jupyter notebook under "/model". The "/preprocessCSV" was used to format the tweet data in an ideal csv format for tweet analysis using TensorFlow. TensorFlow demo was inspired by this demo https://youtu.be/P0o5U9pq8_s along with https://youtu.be/AkEnjJ5yWV0
 
