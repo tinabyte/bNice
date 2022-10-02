@@ -1,9 +1,4 @@
 
-import string
-from youtube_comment_scraper_python import *
-import time
-import twint
-
 """
 c = twint.Config()
 c.Search = ['Taylor Swift']       # topic
@@ -12,6 +7,11 @@ twint.run.Search(c)
 print(c)
 """
 
+"""
+import string
+from youtube_comment_scraper_python import *
+import time
+import twint
 
 def youtubeParse(url: string) -> list:
     youtube.open(url)
@@ -21,3 +21,4 @@ def youtubeParse(url: string) -> list:
         list.append(key["Comment"])
     print(list)
 
+"""
