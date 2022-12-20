@@ -39,7 +39,7 @@ pip install
 ```
 3. Run the project using the following command:
 ```sh
-stremalit run frontEnd.py
+streamlit run frontEnd.py
 ```
 
 ## Notes
